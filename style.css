@@ -1,4 +1,5 @@
-  * {
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+ * {
   box-sizing: border-box;
    /* margin: 0;
   padding: 0;*/} 
@@ -7,6 +8,7 @@ body{
     background-color: #555;
 	/* height: 100vh */
 	margin: 0;
+	font-family: Poppins, sans-serif;;
 	
 } 
 
@@ -21,7 +23,7 @@ body{
  
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
 :root {
 	--vs-primary: 29 92 255;
 }
@@ -351,10 +353,10 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-family: Poppins, sans-serif;
+	
 
 
-		background-image: url(./assets/fondofinal.jpg);
+		background-image: url(./assets/fondoinfofinal.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	 overflow-y: scroll;
@@ -365,7 +367,7 @@ button.primary {
 	display: inline-block;
 	font-size: 0.8rem;
 	color: #fff !important;
-	background: rgb(var(--vs-primary) / 100%);
+	background: #26659C;
 	padding: 13px 25px;
 	border-radius: 17px;
 	transition: background-color 0.1s ease;
@@ -473,40 +475,43 @@ button.primary {
     .textoboton {
         text-align: center;
         position: relative;
-        width: 43%;
-        font-size: 17px !important;
-        left: 125px !important;
-        bottom: 40px !important;
+        width: 150px;
+		left:45% !important;
+		font-size: 15px !important;
+      
     }
 
 button.primary{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
 	margin-left: -8% !important;
 	font-size: 15px;
     width: 150px;
+	padding: 25px 40px !important;
+    border-radius: 100px;
 }
 
-  button.primary {
-     margin-left: -8% !important;
-        font-size: 12px !important;
-        /* width: 90px !important; */
-        padding: 25px 40px !important;
-        border-radius: 100px;
-  }
-      
+ 
+
 
 
 #primero{
-	margin-top: 200px !important;
+	margin-top: 20% !important;
 
 }
+#segundo {
+        margin-top: 55% !important;
+}
+
 #tercero{
-	margin-top: 30% !important ;
+	margin-top: 25% !important ;
 }
    
 
 #botonmover {
     position: relative;
-    bottom: 135px !important;
+    bottom: 145px !important;
     left: 0% !important;
 }
 
@@ -529,7 +534,7 @@ button.primary{
 			width: 300px;
             position: relative;
             right: 55% !important;
-            bottom: 55px !important;
+            bottom: 50px !important;
             display: flex
 ;
             justify-content: flex-end;
@@ -543,7 +548,7 @@ button.primary{
     & > article {
         & > .mover {
 			
-    bottom: 70px !important;
+    bottom: 75px !important;
 			width: 300px;
             position: relative;
             right: 55% !important;
@@ -736,7 +741,7 @@ button.primary{
   }
 
   .huecoajuste{
-	top: 275px;
+	top: 275%;
   }
 
 
